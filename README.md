@@ -16,6 +16,11 @@ Show two methods for building a quick layout
 [Hackingwthswift project 6](https://hackingwithswift.com/100/30)
 
 ## Swift topics
+* VFL visual format language
+* Auto Layout Constraints
+* Creating and assigning metrics dictionaries to VFL
+* Priority values 
+* Layout rules: Anchors - width, height, top, left, right, leading, trailing, centerX, and centerY.
 * 
 ## Solution preview:
 | viewController | detailViewController | detail2ViewController | 
