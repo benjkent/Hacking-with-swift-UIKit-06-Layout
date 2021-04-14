@@ -21,5 +21,5 @@ Show two methods for building a quick layout
 | viewController | detailViewController | detai2ViewController | 
 | :--------------:  | :---------------------:  | :---------------------:  |
 | table of layouts | visual format language | auto layout anchors |
-| <img src="" > | <img src="" > | <img src="" > | 
+| <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/layoutsTableView.png" > | <img src="" > | <img src="" > | 
 
