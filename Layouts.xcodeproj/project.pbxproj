@@ -28,6 +28,7 @@
 		7478A8A0262654D100B61595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7478A8A72626650E00B61595 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7478A8AA2626778200B61595 /* Detail2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail2ViewController.swift; sourceTree = "<group>"; };
+		748B7E7D26278FC600F8F3BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		7478A886262654D000B61595 = {
 			isa = PBXGroup;
 			children = (
+				748B7E7D26278FC600F8F3BB /* README.md */,
 				7478A891262654D000B61595 /* Layouts */,
 				7478A890262654D000B61595 /* Products */,
 			);
