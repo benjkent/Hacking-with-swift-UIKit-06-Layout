@@ -13,6 +13,8 @@
 		7478A89A262654D000B61595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7478A898262654D000B61595 /* Main.storyboard */; };
 		7478A89C262654D100B61595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7478A89B262654D100B61595 /* Assets.xcassets */; };
 		7478A89F262654D100B61595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7478A89D262654D100B61595 /* LaunchScreen.storyboard */; };
+		7478A8A82626650E00B61595 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478A8A72626650E00B61595 /* DetailViewController.swift */; };
+		7478A8AB2626778200B61595 /* Detail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478A8AA2626778200B61595 /* Detail2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7478A89B262654D100B61595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7478A89E262654D100B61595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7478A8A0262654D100B61595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7478A8A72626650E00B61595 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7478A8AA2626778200B61595 /* Detail2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7478A89B262654D100B61595 /* Assets.xcassets */,
 				7478A89D262654D100B61595 /* LaunchScreen.storyboard */,
 				7478A8A0262654D100B61595 /* Info.plist */,
+				7478A8A72626650E00B61595 /* DetailViewController.swift */,
+				7478A8AA2626778200B61595 /* Detail2ViewController.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 				7478A897262654D000B61595 /* ViewController.swift in Sources */,
 				7478A893262654D000B61595 /* AppDelegate.swift in Sources */,
 				7478A895262654D000B61595 /* SceneDelegate.swift in Sources */,
+				7478A8AB2626778200B61595 /* Detail2ViewController.swift in Sources */,
+				7478A8A82626650E00B61595 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
