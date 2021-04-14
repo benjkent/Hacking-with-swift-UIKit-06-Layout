@@ -21,7 +21,11 @@ Show two methods for building a quick layout
 * Creating and assigning metrics dictionaries to VFL
 * Priority values 
 * Layout rules: Anchors - width, height, top, left, right, leading, trailing, centerX, and centerY.
-* 
+## Challenges
+* Replace the widthAnchor with **leadingAnchor** and **trailingAnchor** constraints.
+* **Note:** these constraints explicitly pin the label to the edges of its parent.
+* Use **safeAreaLayoutGuide** for the constraints instead. These will stop the labels from going under the safe area in landscape.
+* Adjust the height of labels equal to 1/5th of the main view, minus 10 for the spacing.
 ## Solution preview:
 | viewController | detailViewController | detail2ViewController | 
 | :--------------:  | :---------------------:  | :---------------------:  |
