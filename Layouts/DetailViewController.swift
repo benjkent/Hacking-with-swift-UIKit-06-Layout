@@ -42,6 +42,7 @@ class DetailViewController: UIViewController {
         let label4 = UILabel()
         label4.translatesAutoresizingMaskIntoConstraints = false
         label4.backgroundColor = UIColor.blue
+        label4.textColor = UIColor.lightGray
         label4.text = "VFL"
         label4.sizeToFit()
         
@@ -63,14 +64,27 @@ class DetailViewController: UIViewController {
         for label in viewsDictionary.keys {
             view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|[\(label)]|", options: [], metrics: nil, views: viewsDictionary))
         }
-        
-        // Using defined values for the height and spacing **Warning hard to adjust
-        
-//        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label1(==50)]-[label2(==50)]-[label3(==50)]-[label4(==50)]-[label5(==50)]-(>=10)-|", options: [], metrics: nil, views: viewsDictionary))
-        
+        /*
+        // Using defined values for the height and spacing. **Warning hard to adjust.
+        // the hyphen - is a default 10pt space.
+        // the double equals == means exactly x points.
+        // the greater-than and equal >= means a distance greater than but no less than x.
+        // the pipe | (on the left) means top of device layout.
+        // the pipe | (on the far right) means the bottom of the device layout.
+         
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label1(==50)]-[label2(==50)]-[label3(==50)]-[label4(==50)]-[label5(==50)]-(>=10)-|", options: [], metrics: nil, views: viewsDictionary))
+        */
+        /*
         // Using a metric allows for value to be set as variables.
+        // We have used "labelHeight" and defined the metrics dictionary to use variable assignment.
         
         view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label1(labelHeight)]-[label2(labelHeight)]-[label3(labelHeight)]-[label4(labelHeight)]-[label5(labelHeight)]-(>=10)-|", options: [], metrics: metrics, views: viewsDictionary))
+        */
+        
+        // We have use the dictionary "metric" above to assign the value of label1 and
+        // used the label1 to say, all lablels should be the same as height as label1's value.
+        // @999 give that constraint a high priority
+        view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "V:|-[label1(labelHeight@999)]-[label2(==75)]-[label3(label1)]-[label4(label1)]-[label5(label1)]-(>=10)-|", options: [], metrics: metrics, views: viewsDictionary))
     }
     
 
