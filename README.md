@@ -39,6 +39,6 @@ Show two methods for building a quick layout
 | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png" > | <img src="" > | <img src=" " > | 
 | AutoLayoutTableVC | SALGuideVC | SALGuideVC (landscape) |
 | List of techniques | safeAreaLayoutGuides | safeAreaLayoutGuides (landscape) |
-| <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png"> | <img src=" " > | <img src=" " > | 
+| <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png"> | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/safeAreaLayout.png" > | <img src=" " > | 
 
 
