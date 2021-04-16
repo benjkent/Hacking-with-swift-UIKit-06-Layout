@@ -32,6 +32,13 @@ Show two methods for building a quick layout
 | table of layouts | visual format language | vfl landscape view |
 | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/layoutsTableView.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/vflportrait.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/vfllandscape.png" > | 
 | AutoLayoutTableVC | widthAnchorVC | widthAnchorVC (landscape) |
-| List of techniques | WidthAnchors are fine in portait | WidthAnchors need work in landscape |
+| List of techniques | WidthAnchors are fine in portait | WidthAnchors go under safe area in landscape |
 | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/widthAnchor.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/widthAnchorLandscape.png" > |
+| AutoLayoutTableVC | LeadTrailAnchorVC | LeadTrailAnchorVC (landscape) |
+| List of techniques | Leading & trailing anchors | Leading & trailing (landscape) |
+| <img src="" > | <img src="" > | <img src=" " > | 
+| AutoLayoutVC | SALGuideVC | SALGuideVC (landscape) |
+| List of techniques | safeAreaLayoutGuides | safeAreaLayoutGuides (landscape) |
+| <img src=" "> | <img src=" " > | <img src=" " > | 
+
 
