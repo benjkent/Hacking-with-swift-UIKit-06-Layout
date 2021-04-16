@@ -38,7 +38,7 @@ class ViewController: UITableViewController {
                 
                 }
             } else {
-                if let vc = storyboard?.instantiateViewController(identifier: "AC") as? Detail2ViewController{
+                if let vc = storyboard?.instantiateViewController(identifier: "LayoutTechniquesTable") as? AutoLayoutTableTableViewController{
                     navigationController?.pushViewController(vc, animated: true)
                 }
             }

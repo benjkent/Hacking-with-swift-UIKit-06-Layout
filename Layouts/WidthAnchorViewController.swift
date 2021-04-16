@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Detail2ViewController: UIViewController {
+class WidthAnchorViewController: UIViewController {
 
     var previous: UILabel?
     
@@ -42,7 +42,8 @@ class Detail2ViewController: UIViewController {
         label4.translatesAutoresizingMaskIntoConstraints = false
         label4.backgroundColor = UIColor.blue
         label4.textColor = UIColor.lightGray
-        label4.text = "VFL"
+        label4.textAlignment = .center
+        label4.text = "Width Anchors"
         label4.sizeToFit()
         
         let label5 = UILabel()
@@ -61,23 +62,13 @@ class Detail2ViewController: UIViewController {
         labels = [label1,label2,label3,label4,label5]
         
         for label in labels {
+            
             // Makes the label conform to the width of the device
-            //label.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
-            
-            // Makes the label conform to the width of the device using Leading and trailing anchors
-            //label.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10).isActive = true
-            //label.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10).isActive = true
-            
-            // Make the label conform conform to the Device Safe Area. Top and bottom.
-            label.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
-            label.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+            label.widthAnchor.constraint(equalTo: view.widthAnchor).isActive = true
             
             // Defining the height of each label specifically.
-            //label.heightAnchor.constraint(equalToConstant: 88).isActive = true
+            label.heightAnchor.constraint(equalToConstant: 88).isActive = true
             
-            // Using Multiplier and constant to divide up the view to define the height.
-            label.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.2, constant: -20).isActive = true
-
             if let previous = previous {
                 // we've got a previous label - so create a height constraint
                 label.topAnchor.constraint(equalTo: previous.bottomAnchor, constant: 10).isActive = true

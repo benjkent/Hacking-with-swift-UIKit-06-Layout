@@ -14,7 +14,10 @@
 		7478A89C262654D100B61595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7478A89B262654D100B61595 /* Assets.xcassets */; };
 		7478A89F262654D100B61595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7478A89D262654D100B61595 /* LaunchScreen.storyboard */; };
 		7478A8A82626650E00B61595 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478A8A72626650E00B61595 /* DetailViewController.swift */; };
-		7478A8AB2626778200B61595 /* Detail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478A8AA2626778200B61595 /* Detail2ViewController.swift */; };
+		7478A8AB2626778200B61595 /* WidthAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478A8AA2626778200B61595 /* WidthAnchorViewController.swift */; };
+		74842E6E2628CC4F00EA7CA4 /* AutoLayoutTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74842E6D2628CC4F00EA7CA4 /* AutoLayoutTableTableViewController.swift */; };
+		74842E72262922F300EA7CA4 /* LeadTrailAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74842E71262922F300EA7CA4 /* LeadTrailAnchorViewController.swift */; };
+		74842E752629244C00EA7CA4 /* SALGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74842E742629244C00EA7CA4 /* SALGuideViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		7478A89E262654D100B61595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7478A8A0262654D100B61595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7478A8A72626650E00B61595 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		7478A8AA2626778200B61595 /* Detail2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail2ViewController.swift; sourceTree = "<group>"; };
+		7478A8AA2626778200B61595 /* WidthAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthAnchorViewController.swift; sourceTree = "<group>"; };
+		74842E6D2628CC4F00EA7CA4 /* AutoLayoutTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayoutTableTableViewController.swift; sourceTree = "<group>"; };
+		74842E71262922F300EA7CA4 /* LeadTrailAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadTrailAnchorViewController.swift; sourceTree = "<group>"; };
+		74842E742629244C00EA7CA4 /* SALGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SALGuideViewController.swift; sourceTree = "<group>"; };
 		748B7E7D26278FC600F8F3BB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		748B7E802627951300F8F3BB /* vfllandscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vfllandscape.png; sourceTree = "<group>"; };
 		748B7E812627951300F8F3BB /* vflportrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vflportrait.png; sourceTree = "<group>"; };
@@ -74,7 +80,10 @@
 				7478A89D262654D100B61595 /* LaunchScreen.storyboard */,
 				7478A8A0262654D100B61595 /* Info.plist */,
 				7478A8A72626650E00B61595 /* DetailViewController.swift */,
-				7478A8AA2626778200B61595 /* Detail2ViewController.swift */,
+				7478A8AA2626778200B61595 /* WidthAnchorViewController.swift */,
+				74842E6D2628CC4F00EA7CA4 /* AutoLayoutTableTableViewController.swift */,
+				74842E71262922F300EA7CA4 /* LeadTrailAnchorViewController.swift */,
+				74842E742629244C00EA7CA4 /* SALGuideViewController.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -161,8 +170,11 @@
 			files = (
 				7478A897262654D000B61595 /* ViewController.swift in Sources */,
 				7478A893262654D000B61595 /* AppDelegate.swift in Sources */,
+				74842E72262922F300EA7CA4 /* LeadTrailAnchorViewController.swift in Sources */,
 				7478A895262654D000B61595 /* SceneDelegate.swift in Sources */,
-				7478A8AB2626778200B61595 /* Detail2ViewController.swift in Sources */,
+				74842E752629244C00EA7CA4 /* SALGuideViewController.swift in Sources */,
+				74842E6E2628CC4F00EA7CA4 /* AutoLayoutTableTableViewController.swift in Sources */,
+				7478A8AB2626778200B61595 /* WidthAnchorViewController.swift in Sources */,
 				7478A8A82626650E00B61595 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

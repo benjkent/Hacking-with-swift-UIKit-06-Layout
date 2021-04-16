@@ -51,7 +51,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fDD-8M-ydC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="902.89855072463774" y="79.6875"/>
+            <point key="canvasLocation" x="748" y="80"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="p2N-xp-rg3">
@@ -66,12 +66,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ydq-4t-GtR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1790" y="80"/>
+            <point key="canvasLocation" x="1709" y="-345"/>
         </scene>
-        <!--Detail2 View Controller-->
+        <!--Width Anchor View Controller-->
         <scene sceneID="XSv-0H-Oeb">
             <objects>
-                <viewController storyboardIdentifier="AC" id="aCR-aN-h3o" customClass="Detail2ViewController" customModule="Layouts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WAL" id="aCR-aN-h3o" customClass="WidthAnchorViewController" customModule="Layouts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uf5-4V-6Rw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +81,65 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bi4-Mb-JRN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2589" y="-25"/>
+            <point key="canvasLocation" x="2546" y="354"/>
+        </scene>
+        <!--Lead Trail Anchor View Controller-->
+        <scene sceneID="iXm-Rx-6m9">
+            <objects>
+                <viewController storyboardIdentifier="LTA" id="his-Ni-GIf" customClass="LeadTrailAnchorViewController" customModule="Layouts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gai-e9-qws">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="4ih-bV-NEa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WU9-5g-YzO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3372" y="357"/>
+        </scene>
+        <!--Guide View Controller-->
+        <scene sceneID="6oy-Ne-dbd">
+            <objects>
+                <viewController storyboardIdentifier="SALG" id="P0z-BT-xyg" customClass="SALGuideViewController" customModule="Layouts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8kR-Ye-9ta">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wFe-Dw-gMs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cDk-jQ-bKN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4171" y="359"/>
+        </scene>
+        <!--Auto Layout Table Table View Controller-->
+        <scene sceneID="Ayq-Ia-cPZ">
+            <objects>
+                <tableViewController storyboardIdentifier="LayoutTechniquesTable" id="sXz-Tw-QnZ" customClass="AutoLayoutTableTableViewController" customModule="Layouts" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Q2Z-Lv-P3R">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" id="GPf-pb-otv">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GPf-pb-otv" id="mAN-KO-3zw">
+                                    <rect key="frame" x="0.0" y="0.0" width="383" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sXz-Tw-QnZ" id="FTz-Zw-tS8"/>
+                            <outlet property="delegate" destination="sXz-Tw-QnZ" id="BXk-6f-db1"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QEt-LE-hCD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1709" y="354"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="g8d-gH-wcW">
