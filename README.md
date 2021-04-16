@@ -33,5 +33,5 @@ Show two methods for building a quick layout
 | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/layoutsTableView.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/vflportrait.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/vfllandscape.png" > | 
 | AutoLayoutTableVC | widthAnchorVC | widthAnchorVC (landscape) |
 | list of techniques | fine in portait | needs work in landscape |
-| <img src="" > | <img src="" > | <img src="" > |
+| <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png" > | <img src="" > | <img src="" > |
 
