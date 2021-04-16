@@ -36,7 +36,7 @@ Show two methods for building a quick layout
 | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/widthAnchor.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/widthAnchorLandscape.png" > |
 | AutoLayoutTableVC | LeadTrailAnchorVC | LeadTrailAnchorVC (landscape) |
 | List of techniques | Leading & trailing anchors | Leading & trailing (landscape) |
-| <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/leadingTrailing.png" > | <img src=" " > | 
+| <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/leadingTrailing.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/leadingTrainlingLandscape.png " > | 
 | AutoLayoutTableVC | SALGuideVC | SALGuideVC (landscape) |
 | List of techniques | safeAreaLayoutGuides | safeAreaLayoutGuides (landscape) |
 | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/constraintsTable.png"> | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/safeAreaLayout.png" > | <img src="https://github.com/benjkent/Hacking-with-swift-UIKit-06-Layout/blob/main/Screenshots/safeAreaGuidesLandscape.png " > | 
