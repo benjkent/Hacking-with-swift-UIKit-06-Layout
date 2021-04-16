@@ -14,6 +14,7 @@ class LeadTrailAnchorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Leading & Trailing Anchor Constraints"
         let label1 = UILabel()
         // Don't generate any constraints based on view size and position
         label1.translatesAutoresizingMaskIntoConstraints = false

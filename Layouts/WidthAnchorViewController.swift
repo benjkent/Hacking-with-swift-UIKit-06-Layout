@@ -14,6 +14,7 @@ class WidthAnchorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Width Anchor Constraints"
         let label1 = UILabel()
         // Don't generate any constraints based on view size and position
         label1.translatesAutoresizingMaskIntoConstraints = false

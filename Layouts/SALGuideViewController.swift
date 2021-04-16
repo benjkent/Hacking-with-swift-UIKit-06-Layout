@@ -14,6 +14,8 @@ class SALGuideViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Safe Area Layout Guides"
+        
         let label1 = UILabel()
         // Don't generate any constraints based on view size and position
         label1.translatesAutoresizingMaskIntoConstraints = false
